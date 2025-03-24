@@ -10,10 +10,10 @@ Add the json.jar file to he lib folder
 Use the command to compile the code.
 
 ```bash
-javac -cp c:\Users\Dilip\Desktop\javamicrporject\lib\json.jar c:\Users\Dilip\Desktop\javamicrporject\src\WeatherForecastApp.java
+javac -cp .:lib\json.jar .:src\WeatherForecastApp.java
 ```
 ```bash
-java -cp c:\Users\Dilip\Desktop\javamicrporject\lib\json.jar c:\Users\Dilip\Desktop\javamicrporject\src\WeatherForecastApp.java
+java -cp .:lib\json.jar .:src\WeatherForecastApp.java
 ```
 ## Contributing
 
