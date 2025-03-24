@@ -1,7 +1,6 @@
-# Foobar
+# Weather forecast application
 
-Foobar is a Python library for dealing with word pluralization.
-
+get Weather Tempreature and humidity
 ## Use the JSON Library
 Add the json.jar file to he lib folder
 
