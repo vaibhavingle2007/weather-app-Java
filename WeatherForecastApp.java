@@ -72,7 +72,7 @@ public class WeatherForecastApp extends JFrame {
 
     private void fetchWeather() {
         String city = cityField.getText();
-        String apiKey = "3611c6d6373b8ff0bef3287831a1d98e"; // Replace with your actual OpenWeatherMap API key
+        String apiKey = "Your_API"; // Replace with your actual OpenWeatherMap API key
         String urlString = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey + "&units=metric";
 
         try {
